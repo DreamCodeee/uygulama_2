@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@100&display=swap");
+body {
+  font-family: "Comfortaa", cursive;
+  margin: 0px;
+}
+header {
+  height: 70px;
+  background-color: rgba(26, 24, 25, 0.5);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+
+.container {
+  width: 95%;
+  top: 0px;
+}
+.col4 {
+  text-align: center;
+  width: 33.3%;
+  float: left;
+}
+a {
+  text-decoration: none;
+}
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+  color: antiquewhite;
+}
+.main_nav ul :hover {
+  color: rgb(4, 21, 77);
+}
+.social_links {
+  margin-top: 20px;
+}
+.social_links li {
+  display: inline;
+  float: right;
+  margin-top: 12;
+  margin-right: 25px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.main_nav ul {
+  margin-top: 26px;
+  margin-right: 10px;
+}
+.p {
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+}
+.a a {
+  color: aliceblue;
+}
+/* .link i {
+    color: antiquewhite;
+  } */
+
+.social_links .blue {
+  background-color: rgb(47, 0, 255);
+}
+.social_links .pink {
+  background-color: rgb(170, 55, 141);
+}
+.social_links .red {
+  background-color: red;
+}
+
+/* -------------------------- Section------------------------------- */
+
+#main_area {
+  display: inline-block;
+  background: linear-gradient(
+      to bottom,
+      rgba(252, 153, 124, 0.2),
+      rgba(250, 81, 30, 0.2)
+    ),
+    url("../img/bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 620px;
+  width: 100%;
+  position: relative;
+  margin-top: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  padding-top: 15%;
+  font-size: 60px;
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 60px;
+}
+.image p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.fa-arrow-down {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border-radius: 42px;
+  background-color: rgb(241, 14, 82);
+  text-align: center;
+  line-height: 42px;
+  font-size: 25px;
+}
+
+/* -------------------whatwedo------------------- */
+
+#whatwedo {
+  background-color: rgb(214, 57, 104);
+  padding-left: 110px;
+  overflow: hidden;
+  padding-top: 56px;
+  padding-bottom: 112px;
+}
+
+#whatwedo .col2 {
+  background-image: url(../img/dag2.png);
+  background-repeat: no-repeat;
+  float: left;
+  width: 48.5%;
+  min-height: 250px;
+  text-align: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+#whatwedo .col2:hover {
+  opacity: 1;
+}
+
+#whatwedo h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 200;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#whatwedo h3 {
+  padding-top: 40px;
+}
+#whatwedo p {
+  color: white;
+  font-size: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* ----------------son-------------- */
+
+#testimonials {
+  background-image: url(../img/dag3_2250x1500.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#testimonials .bir {
+  color: rgb(214, 57, 104);
+  padding-left: 52%;
+}
+
+#testimonials h3,
+#testimonials p {
+  color: white;
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 30px;
+  font-weight: 300;
+}
+#testimonials h3 {
+  text-transform: uppercase;
+}
+
+span {
+  color: rgb(214, 57, 104);
+}
+
+#testimonials i {
+  color: white;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+#client {
+  width: 100%;
+}
+#client h3 {
+  padding-left: 48%;
+  font-size: 25px;
+  color: rgb(214, 57, 104);
+}
+.col5 img {
+  float: left;
+  padding-left: 60px;
+  padding-bottom: 50px;
+}
+
+.col5 .ilk {
+  padding-left: 15%;
+}
+
+/* footer {
+  background-color: rgb(214, 57, 104);
+  bottom: -200px;
+  position: relative;
+  height: 50px;
+  text-align: center;
+}
+
+footer p {
+  padding-right: auto;
+  padding-left: auto;
+} */
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(214, 57, 104);
+  color: white;
+}
